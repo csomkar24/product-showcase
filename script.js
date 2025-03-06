@@ -450,3 +450,9 @@ document.addEventListener("DOMContentLoaded", () => {
         renderProductGrid();
     }
 });
+
+no_of_items = 0;
+function increment(){
+    no_of_items += 1;
+    document.getElementById('no_of_items').innerHTML = `Cart (${no_of_items})`;
+}
